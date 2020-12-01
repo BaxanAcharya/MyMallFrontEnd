@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 51px;
+  align-items: center;
+  /* position: fixed; */
+  width: 100%;
+}
+
+.navbar__logo {
+  height: 50px;
+  object-fit: contain;
+}
+.navbar__logoImage {
+  height: 50px;
+  width: 200px;
+}
+.navbar__search {
+  display: flex;
+  flex: 1;
+}
+
+.navbar__searchInput {
+  height: 12px;
+  padding: 10px;
+  height: 28px;
+  font-size: 15px;
+  border: 1px solid beige;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.navbar__searchIcon {
+  padding: 5px;
+  height: 39px !important;
+  color: white;
+  background-color: rgb(12, 2, 7);
+}
+
+.navbar__Cart {
+  padding-left: 11px;
+  padding-right: 8px;
+}

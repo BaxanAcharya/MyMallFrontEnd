@@ -16,7 +16,7 @@ const TopNav = () => {
           rel="noreferrer"
           style={{ color: "black", textDecoration: "none", padding: "50px" }}
         >
-          Get latest Covid-19 updates
+          Get the latest Covid-19 updates
         </a>
       </div>
     </div>
