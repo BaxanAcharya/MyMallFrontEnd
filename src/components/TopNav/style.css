@@ -1,0 +1,15 @@
+.topNav {
+  background-color: #ffffff;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  align-content: space-around;
+  width: 100%;
+}
+
+.topNav__date {
+  flex: 1;
+  color: black;
+  background-color: #ffffff;
+}
