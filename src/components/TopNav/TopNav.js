@@ -9,12 +9,12 @@ const TopNav = () => {
           {new Date().toDateString()}
         </Typography>
       </div>
-      <div>
+      <div className="topNav__link">
         <a
           href="https://www.worldometers.info/coronavirus"
           target="_blank"
           rel="noreferrer"
-          style={{ color: "black", textDecoration: "none", padding: "50px" }}
+          className="topNav__linkAnchor"
         >
           Get the latest Covid-19 updates
         </a>

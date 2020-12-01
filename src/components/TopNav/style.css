@@ -11,6 +11,16 @@
 
 .topNav__date {
   flex: 1;
-  color: black;
+  color: #8f2e49;
   background-color: #ffffff;
+}
+
+.topNav__linkAnchor {
+  color: #8f2e49;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.topNav__linkAnchor:hover {
+  font-weight: 500;
 }
