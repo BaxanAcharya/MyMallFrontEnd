@@ -5,9 +5,7 @@ const TopNav = () => {
   return (
     <div className="topNav">
       <div className="topNav__date">
-        <Typography variant="subtitle1" style={{ marginLeft: "50px" }}>
-          {new Date().toDateString()}
-        </Typography>
+        <Typography variant="subtitle1">{new Date().toDateString()}</Typography>
       </div>
       <div className="topNav__link">
         <a

@@ -6,9 +6,11 @@ import { Products } from "./components/Product/Products";
 function App() {
   return (
     <div className="App">
-      <TopNav />
       <NavBar />
+      <div style={{ height: "51px" }}></div>
+      <TopNav />
       <Slider />
+
       {/* to-do */}
       <div style={{ background: "white" }}>Categories</div>
       {/*  */}

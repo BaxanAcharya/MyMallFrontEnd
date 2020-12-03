@@ -26,7 +26,7 @@ const NavBar = () => {
 
       <div className="navbar__Cart">
         <div style={{ display: "flex" }}>
-          <Badge badgeContent={2} color="secondary">
+          <Badge badgeContent={0} color="secondary">
             <ShoppingBasketIcon style={{ color: "white " }} />
           </Badge>
         </div>
